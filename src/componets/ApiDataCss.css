@@ -9,6 +9,8 @@
     padding-bottom: 2rem;
     padding-left: 10rem;
     padding-right: 10rem;
+    color: #E4572E;
+    font-weight: 900;
 }
 
 .productos {
@@ -73,5 +75,5 @@
 .producto hr{
     border: 1px solid #ffffff;
     width: 95%;
-    
+
 }

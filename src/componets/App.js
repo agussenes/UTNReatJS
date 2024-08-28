@@ -4,7 +4,7 @@ import QuienesSomos from "./QuienesSomos.jsx";
 import ContainerAccion from "./ContainerAccion.jsx";
 import ProdcutosDestacados from "./ProdcutosDestacados.jsx"
 import Footer from "./Footer.jsx";
-
+import ApiData from "./ApiData.jsx"
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
     <QuienesSomos/>
     <ContainerAccion/>
     <ProdcutosDestacados/>
+    <ApiData/>
     <Footer/>
 
     </>

@@ -44,6 +44,7 @@ function ApiData() {
           <div key={producto.id} className="producto">
             <h3>{producto.titulo}</h3>
             <img src={producto.imagen} alt={producto.titulo} />
+            <hr></hr>
             <p>{producto.descripcion}</p>
             <button className='botonProducto'>Ver detalle</button>
           </div>

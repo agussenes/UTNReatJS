@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+
+.containerNavbar {
+    width: 100%;
+    background: #497D56;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.navBar{
+    background: #497D56;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.brand{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    
+
+}
+
+.menuIcon{
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #ffffff;
+    padding-left: 15rem;
+
+    
+}
+
+
+.navLinks {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 5.5rem;
+    width: 100%;
+    background-color: #30646B;
+    padding: 2rem 1rem;
+    text-align: center; 
+
+}
+
+.navLinks.show{
+    display: flex;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 5.5rem);
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: 300;  
+    z-index: 100;
+
+    animation: slideDown 1s forwards;
+   
+}
+
+
+@keyframes slideDown {
+    from {
+        max-height: 0;
+        padding: 0;
+    }
+    to {
+        max-height: 100vh; 
+        padding: 2rem 1rem;
+    }
+}
+
+.navLinks li {
+    list-style: none;
+
+}
+
+
+.navLinks a{
+    font-size: 1.3rem;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 1.2s ease;  
+    
+
+}
+
+.navLinks a:hover{
+    padding: .8rem 0;
+    color: #fde4af;
+    border-bottom: 0.15rem solid #dbea9f;
+    border-top: 0.15rem solid #dbea9f;
+
+}
+
+.searchBar {
+    flex-grow: 1;
+    margin: 0 20px;
+    width: 100%;
+    display: none;
+    justify-content: center;
+  }
+  
+  .searchBar input {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 2rem;
+  }
+
+  .listaProductos {
+    background: #497D56;
+  }
+
+
+@media screen and (min-width: 501px) {
+    
+
+    .menuIcon {
+        display: none;
+        
+    }
+
+
+    .navLinks{
+        display:flex;
+        flex-direction: row;
+        position:static;
+        width: auto;
+        background-color: #497D56;
+        font-weight: 600;
+        padding: 0;
+        
+    }
+
+    .navLinks li{
+        margin: 0 20px;
+        list-style: none;
+    }
+
+    .navLinks.show{
+        display: none
+    }
+
+    .navLinks a:hover{
+        color: #a8dee4;
+
+    }
+
+    .searchBar {
+        display: flex;
+
+    }
+
+
+    }
+
+    @media screen and (min-width: 801px) {
+
+        .navBar{
+            background-color: #497D56;
+            padding: 1rem;
+            display: flex;
+            
+            align-items: center;
+
+        }
+
+        .navLinks{
+            display: flex;
+            flex-direction: row;
+            position:static;
+            width: auto;
+            background-color: #497D56;
+            font-weight: 600;
+            padding: 0;
+        }
+    
+        .navLinks li{
+            margin: 0 20px;
+            list-style: none;
+        }
+
+    }
+
+    @media screen and (min-width: 1101px) {
+
+        .navBar{
+            background-color: #497D56;
+            padding: 1rem;
+            display: flex;
+            
+            align-items: center;
+
+        }
+
+        .navLinks{
+            display: flex;
+            flex-direction: row;
+            position:static;
+            width: auto;
+            background-color: #497D56;
+            font-weight: 600;
+            padding: 0;
+        }
+    
+        .navLinks li{
+            margin: 0 20px;
+            list-style: none;
+        }
+
+    }
+    
+

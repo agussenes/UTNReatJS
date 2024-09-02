@@ -1,0 +1,8 @@
+[
+    { "id": 1, "nombre": "Juego Montessori", "precio": 100, "descripcion": "Descripcion producto 1" },
+    { "id": 2, "nombre": "Mesa de Madera", "precio": 200, "descripcion": "Descripcion producto 2" },
+    { "id": 3, "nombre": "Juguete de Madera", "precio": 300, "descripcion": "Descripcion producto 3" },
+    { "id": 4, "nombre": "Rompecabezas de Madera", "precio": 400, "descripcion": "Descripcion producto 4" },
+    { "id": 5, "nombre": "Silla de Madera", "precio": 80, "descripcion": "Descripcion producto 5" },
+    { "id": 6, "nombre": "Juego Montessori Personalizado", "precio": 150, "descripcion": "Descripcion producto 6" }
+  ]

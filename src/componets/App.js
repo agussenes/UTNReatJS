@@ -5,7 +5,7 @@ import ListaProductos from './Navbar/ListaProductos.jsx';
 import QuienesSomos from "./QuienesSomos.jsx";
 import ContainerAccion from "./ContainerAccion.jsx";
 import ProdcutosDestacados from "./ProdcutosDestacados.jsx"
-import Footer from "./Footer.jsx";
+import Footer from "./Footer/Footer.jsx";
 import ApiData from "./ApiData.jsx"
 // import Catalogo from "./Catalogo.jsx"
 import FormularioCrearProducto from "./FormularioCrearProducto.jsx"
@@ -35,6 +35,8 @@ const App = () => {
       producto.nombre.toLocaleLowerCase().includes(terminoBusqueda.toLocaleLowerCase())
     )
   : [];
+
+  
 
 
   return (

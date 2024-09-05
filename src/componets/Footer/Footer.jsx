@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookSquare, faInstagram, faTwitter, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faMapMarker, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
+import AppNewsletter from './AppNewsletter';
+
 const Footer = () => {
   return (
     <>
@@ -63,6 +65,14 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+
+        <div className="newsletter">
+
+          <AppNewsletter/>
+
+        </div>
+
+
       </footer>
       <div className="copyrightsec">
         <p>&copy; Agus - Noe - Patri. Todos los derechos reservados</p>

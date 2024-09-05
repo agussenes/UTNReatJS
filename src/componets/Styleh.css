@@ -390,6 +390,59 @@ footer .container .sec p {
     padding-top: 0.5rem;
 }
 
+.newsletter {
+
+
+
+    color: #ffffff
+    
+    
+    
+}
+
+.newsletter .container {
+    align-items: center;
+    
+}
+
+.newsletter .container h1{
+    font-size: 27px;
+    
+}
+
+.newsMail {
+
+    border-radius: 1rem;
+    
+    
+}
+
+
+.newsButton {
+
+    border-radius: 1rem;
+    width: 6rem;
+    
+}
+
+.suscriptors {
+
+    display: none;
+
+  
+}
+
+.suscriptors h2 {
+
+    align-items: center;
+
+    font-size: 27px;
+}
+
+
+
+
+
 
 /* •----------------------FiN-Footer---------------------• */
 
@@ -472,7 +525,7 @@ footer .container .sec p {
 
 #productosAgregados {
     display: block;
-    background-color: #8078E9;
+    background-color: #30646B;
     border-radius: 15px;
     width: 25%;
     height: auto;
@@ -517,7 +570,7 @@ footer .container .sec p {
 
 
 .containerFormsProductos {
-    background-color: #5449e7
+    background-color: #30646B
 }
 
 .containerFormulario h2{
@@ -710,7 +763,7 @@ footer .container .sec p {
     }
 
     #agregarFormulario {
-        color: #2a2294;
+        color: #30646B;
 
     }
 

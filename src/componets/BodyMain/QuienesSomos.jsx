@@ -18,9 +18,7 @@ const QuienesSomos = () => {
           <li><strong>Amor y Dedicación:</strong> Ponemos el corazón en cada uno de nuestros productos. Creemos en la importancia del cuidado y la dedicación en la creación de materiales que acompañen el crecimiento de los niños.</li>
           <li><strong>Fomento de la Creatividad:</strong> Nos esforzamos por crear juguetes y muebles que estimulen la imaginación y la creatividad de los niños, permitiéndoles expresarse libremente y desarrollar sus habilidades únicas.</li>
         </ul>
-      </div>
-
-      <div className="container-fluid" id="contenedorCar">
+        <div className="container-fluid" id="contenedorCar">
         <div className="containerCarousel">
           <div id="carouselExampleFade" className="carousel slide carousel-fade">
             <div className="carousel-inner">
@@ -48,6 +46,9 @@ const QuienesSomos = () => {
           </div>
         </div>
       </div>
+      </div>
+
+      
     </section1>
     </>
   );

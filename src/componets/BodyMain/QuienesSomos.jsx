@@ -1,8 +1,8 @@
 import React from 'react';
-import carousel1 from '../imagenes/carousel.jpg';
-import carousel2 from '../imagenes/encastres.jpg';
-import carousel3 from '../imagenes/rompecabezamaderaia.jpg';
-import carousel4 from '../imagenes/carouseldomino.jpg';
+import carousel1 from '../../imagenes/carousel.jpg';    
+import carousel2 from '../../imagenes/encastres.jpg';
+import carousel3 from '../../imagenes/rompecabezamaderaia.jpg';
+import carousel4 from '../../imagenes/carouseldomino.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const QuienesSomos = () => {

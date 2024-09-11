@@ -1,7 +1,7 @@
 import React from 'react';
-import atencionCliente from '../imagenes/atencion-al-cliente.png';
-import disenoPersonalizado from '../imagenes/el-pensamiento-de-diseno.png';
-import catalogo from '../imagenes/productos.png';
+import atencionCliente from '../../imagenes/atencion-al-cliente.png';
+import disenoPersonalizado from '../../imagenes/el-pensamiento-de-diseno.png';
+import catalogo from '../../imagenes/productos.png';
 
 const ContainerAccion = () => {
   return (

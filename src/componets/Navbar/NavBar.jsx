@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faFileText, faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import logo from '../../imagenes/LogoConNombreeee.png'
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 
 
@@ -25,9 +26,9 @@ const NavBar = ({ onBuscar }) => {
     <div className="containerNavbar">
       
       <div className="brand">
-        <a href="#">
+        <Link to="/">
           <img src={logo} alt="Cururu" id="logoNavbar" />
-        </a>
+        </Link>
       </div>
 
       <div className="searchBar">
@@ -51,34 +52,34 @@ const NavBar = ({ onBuscar }) => {
 
         <ul className={`navLinks ${menuOpen ? 'show' : ''}`}>
           <li>
-            <a href="./home.html">
+            <Link to="/">
                Inicio
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#">
+            <Link to="#productosDestacados">
                Productos
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#">
+            <Link to="/">
                Nosotros
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#">
+            <Link to="/">
               Contacto
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="../formulario.html">
+            <Link to="./Formulario-Crear-Producto">
               <FontAwesomeIcon icon={faFileText} aria-hidden="true" />
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#">
+            <Link to="/">
               <FontAwesomeIcon icon={faCartShopping} />
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

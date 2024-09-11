@@ -2,15 +2,13 @@ import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from "./Navbar/NavBar.jsx";
 import ListaProductos from './Navbar/ListaProductos.jsx';
-import QuienesSomos from "./QuienesSomos.jsx";
-import ContainerAccion from "./ContainerAccion.jsx";
-import ProdcutosDestacados from "./ProdcutosDestacados.jsx"
+import BodyMain from './BodyMain.jsx'
 import Footer from "./Footer/Footer.jsx";
-import ApiData from "./ApiData.jsx"
 // import Catalogo from "./Catalogo.jsx"
 import FormularioCrearProducto from "./FormularioCrearProducto.jsx"
-
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import '../componets/Styleh.css'
+
 
 
 const App = () => {
@@ -40,18 +38,16 @@ const App = () => {
 
 
   return (
-    <>
+    <BrowserRouter>
       <NavBar onBuscar={setTerminoBusqueda} />
       <ListaProductos productos={productosFiltrados} />
-      <QuienesSomos/>
-      <ContainerAccion/>
-      <ProdcutosDestacados/>
-      <ApiData/>
-      {/* <Catalogo/> */}
-      <FormularioCrearProducto/>
+      <Routes>
+        <Route path="/" element={<BodyMain/>} />
+        <Route path="/Formulario-Crear-Producto" element={<FormularioCrearProducto />} />
+      </Routes>
       <Footer/>
 
-    </>
+    </BrowserRouter>
   );
 };
 

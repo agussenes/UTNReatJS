@@ -1,12 +1,12 @@
 import React from 'react';
-import producto1 from '../imagenes/minutasMadera.jpeg';
-import producto2 from '../imagenes/minutasMadera.jpeg';
-import producto3 from '../imagenes/minutasMadera.jpeg';
-import producto4 from '../imagenes/minutasMadera.jpeg';
+import producto1 from '../../imagenes/minutasMadera.jpeg';
+import producto2 from '../../imagenes/minutasMadera.jpeg';
+import producto3 from '../../imagenes/minutasMadera.jpeg';
+import producto4 from '../../imagenes/minutasMadera.jpeg';
 
 const ProdcutosDestacados = () => {
   return (
-    <div className="containerProductos">
+    <div className="containerProductos" id='productosDestacados'>
       <div className="product">
         <img src={producto1} alt="Juegos Montessori" />
         <h2>Juegos Montessori</h2>

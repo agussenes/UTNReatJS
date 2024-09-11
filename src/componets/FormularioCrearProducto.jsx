@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 function FormularioCrearProducto() {
   const [productos, setProductos] = useState([]);
   const [producto, setProducto] = useState({
@@ -53,7 +54,7 @@ function FormularioCrearProducto() {
   };
 
   return (
-    <div>
+    <div className='containerFormulario'>
       <h2>CREAR NUEVO PRODUCTO</h2>
       <form id="agregarProducto" onSubmit={handleSubmit}>
         <label htmlFor="nombre">Nombre del Producto</label>
@@ -83,7 +84,7 @@ function FormularioCrearProducto() {
         <br />
 
         <label htmlFor="imgProducto">Imagen del producto</label>
-        <input
+        <input className='selectordeArchivos'
           type="file"
           id="imgProducto"
           name="imgProducto"

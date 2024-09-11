@@ -454,14 +454,16 @@ footer .container .sec p {
     display: flex;
     flex-direction: column;
     padding: 0.6rem;
-    background: linear-gradient(45deg, #e6f093, #0f472a, #f53f3f);
+    background-color:#F1D28F ;
+}
 
-
+.containerFormulario h2{
+    border-bottom: 2px solid #fff;
 }
 
 .containerFormulario form {
-    background-color: #e5ea9f;
-    border: 0.06rem solid #158041;
+    background-color: #FDE4AF;
+    border: 0.06rem solid #000000;
     padding: 1.56rem;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -471,7 +473,7 @@ footer .container .sec p {
     margin-top: 1.56rem;
     margin-bottom: 1.56rem;
     border-radius: 1rem;
-    box-shadow: 1pc 1pc 10pc 3pc #62f3a89d;
+    box-shadow: 1px 4px 2px #f8ec849f;
     width: 75%;
 
 }
@@ -484,7 +486,7 @@ footer .container .sec p {
 }
 
 #imgProducto {
-    background-color: #e5ea9f;
+    background-color: #fcfde8;
     width: auto;
     justify-self: center;
 }
@@ -495,7 +497,7 @@ footer .container .sec p {
     align-content: center;
     align-self: center;
     border-radius: 0.36rem;
-    background-color: #f7f58d;
+    background-color: #FFF;
     transition: background-color 0.3s
 }
 
@@ -555,6 +557,7 @@ footer .container .sec p {
 #productosAgregados h2{
     font-size: 38px;
     text-align: center;
+    
 }
 
 #productosAgregados p{
@@ -576,7 +579,7 @@ footer .container .sec p {
 .containerFormulario h2{
     color: #ffffff;
     font-weight: 600;
-
+    margin-top: 2rem;
 }
 
 
@@ -611,6 +614,7 @@ footer .container .sec p {
     font-size: 18px;
     border: 1px solid #ffffff;
     box-shadow: 4px 4px 8px #001105;
+    
 }
 
 
@@ -619,15 +623,14 @@ footer .container .sec p {
     color: white;
     font-size: 20px;
     font-weight: 700;
+    
 }
 
-.containerButtons{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap:20px;
+.containerButtons{    
     padding-bottom: 25px;
     padding-top: 25px;
 }
+
 
 /* •------------------------------ Final Formulario ----------------------------• */
 

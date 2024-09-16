@@ -78,14 +78,39 @@
 
 }
 
-@media screen and (max-width: 767px){
-    .productos{
-        grid-template-columns: 1fr;
-    }
-}
 
-@media screen and (max-width: 1024px){
+/* Media Query para Escritorios (pantallas grandes) */
+@media (min-width: 1025px) {
+    .productos{
+        grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  /* Media Query para Tablets */
+  @media (min-width: 768px) and (max-width: 1024px) {
     .productos{
         grid-template-columns: 1fr 1fr;
     }
-}
+  }
+  
+  /* Media Query para Móviles */
+  @media (max-width: 767px) {
+    .productos{
+        grid-template-columns: 1fr;
+    }
+  }
+  
+  
+  /* Media Query para Móviles pequeños */
+  @media (max-width: 480px) {
+    .productos{        
+        grid-template-columns: 1fr;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .producto{
+        width: 100%;
+    }
+  }

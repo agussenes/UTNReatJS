@@ -27,7 +27,7 @@ body {
 
 /* •---------------------SECCION-1---------------------• */
 section1 {
-    background-color:#f1d28f;
+    background-color: #f1d28f;
     display: grid;
     grid-template-columns: 1fr;
     padding-top: 30px;
@@ -37,14 +37,14 @@ section1 {
 
 }
 
-#contenedorCar{
+#contenedorCar {
     display: flex;
     justify-content: center;
     align-items: center
 }
 
 .container-fluid {
-    
+
     background-size: 200% 200%;
     padding: 10px;
 }
@@ -54,8 +54,10 @@ section1 {
 }
 
 .containerBio {
-    background-color:#fde4af;
+    background-color: #fde4af;
     padding: 0px 100px;
+    height: auto;
+    margin-bottom: 2rem;
 }
 
 .containerBio h2 {
@@ -70,15 +72,16 @@ section1 {
 }
 
 
-.carousel-item {
-    height: 400px;
-}
+.carousel-item {}
 
 .carousel-item img {
-    width: auto;
-    height: 350px;
-    border-radius: 15px;
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+
 }
+
+
 
 
 /* •---------------------FIN-SECCION-1---------------------• */
@@ -110,7 +113,7 @@ section2 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
     height: 100vh;
-    background-image:url(../imagenes/paralax/paralxCururu.webp);
+    background-image: url(../imagenes/paralax/paralxCururu.webp);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -135,7 +138,7 @@ section2 {
 .accion img {
     max-width: 200px;
     padding-top: 1rem;
-    
+
 }
 
 
@@ -165,10 +168,10 @@ section2 {
     padding-right: 150px;
     padding-left: 150px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 20px;
     align-content: center;
-    background-color:#f1d28f;
+    background-color: #f1d28f;
 }
 
 @keyframes lightEffect {
@@ -279,7 +282,7 @@ footer .container .sec h2::before {
     left: 0;
     width: 50px;
     height: 2px;
-    background:#F1D28F;
+    background: #F1D28F;
 
 }
 
@@ -315,7 +318,7 @@ footer .container .sec p {
     background: #146b2a;
 }
 
-.sci li a{
+.sci li a {
     color: #db697c;
     font-size: 26px;
 }
@@ -361,7 +364,7 @@ footer .container .sec p {
     margin-bottom: 16px;
 }
 
-.info li span{
+.info li span {
     color: #ffffff;
     font-size: 16px;
 }
@@ -386,7 +389,7 @@ footer .container .sec p {
 
 }
 
-.copyrightsec p{
+.copyrightsec p {
     padding-top: 0.5rem;
 }
 
@@ -395,26 +398,23 @@ footer .container .sec p {
 
 
     color: #ffffff
-    
-    
-    
 }
 
 .newsletter .container {
     align-items: center;
-    
+
 }
 
-.newsletter .container h1{
+.newsletter .container h1 {
     font-size: 27px;
-    
+
 }
 
 .newsMail {
 
     border-radius: 1rem;
-    
-    
+
+
 }
 
 
@@ -422,14 +422,14 @@ footer .container .sec p {
 
     border-radius: 1rem;
     width: 6rem;
-    
+
 }
 
 .suscriptors {
 
     display: none;
 
-  
+
 }
 
 .suscriptors h2 {
@@ -454,10 +454,10 @@ footer .container .sec p {
     display: flex;
     flex-direction: column;
     padding: 0.6rem;
-    background-color:#F1D28F ;
+    background-color: #F1D28F;
 }
 
-.containerFormulario h2{
+.containerFormulario h2 {
     border-bottom: 2px solid #fff;
 }
 
@@ -537,7 +537,7 @@ footer .container .sec p {
     padding-bottom: 30px;
 }
 
-#productosAgregados li{
+#productosAgregados li {
     margin: 10px;
     color: #ffffff;
     font-weight: 600;
@@ -547,26 +547,26 @@ footer .container .sec p {
     box-shadow: 4px 4px 9px #040e09a8;
 }
 
-#productosAgregados img{
+#productosAgregados img {
     border-radius: 15px;
     width: 100%;
     height: auto;
-    
+
 }
 
-#productosAgregados h2{
+#productosAgregados h2 {
     font-size: 38px;
     text-align: center;
-    
+
 }
 
-#productosAgregados p{
+#productosAgregados p {
     text-align: center;
     font-size: 26px;
-    
+
 }
 
-#productosAgregados hr{
+#productosAgregados hr {
     border: 2px solid #ffffff;
     background-color: #ffffff;
 }
@@ -576,14 +576,14 @@ footer .container .sec p {
     background-color: #30646B
 }
 
-.containerFormulario h2{
+.containerFormulario h2 {
     color: #ffffff;
     font-weight: 600;
     margin-top: 2rem;
 }
 
 
-#buttonAgregarProducto{
+#buttonAgregarProducto {
     background-color: #c9f1d3;
     border-radius: 15px;
     padding-left: 10px;
@@ -596,14 +596,14 @@ footer .container .sec p {
     box-shadow: 4px 4px 8px #001105;
 }
 
-#buttonAgregarProducto:hover{
+#buttonAgregarProducto:hover {
     background-color: rgb(0, 179, 15);
     color: white;
     font-size: 20px;
     font-weight: 700;
 }
 
-#eliminarProducto{
+#eliminarProducto {
     background-color: #136327;
     border-radius: 15px;
     padding-left: 10px;
@@ -614,19 +614,19 @@ footer .container .sec p {
     font-size: 18px;
     border: 1px solid #ffffff;
     box-shadow: 4px 4px 8px #001105;
-    
+
 }
 
 
-#eliminarProducto:hover{
+#eliminarProducto:hover {
     background-color: red;
     color: white;
     font-size: 20px;
     font-weight: 700;
-    
+
 }
 
-.containerButtons{    
+.containerButtons {
     padding-bottom: 25px;
     padding-top: 25px;
 }
@@ -638,12 +638,14 @@ footer .container .sec p {
 
 @media screen and (max-width: 500px) {
 
-    
+
 
     /* section1 */
 
     section1 {
         grid-template-columns: 1fr;
+        padding-right: 50px;
+        padding-left: 50px;
     }
 
     .container-fluid {
@@ -656,6 +658,8 @@ footer .container .sec p {
 
     .containerBio {
         width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     /* section2 */
@@ -709,6 +713,8 @@ footer .container .sec p {
 
     section1 {
         grid-template-columns: 1fr;
+        padding-right: 100px;
+        padding-left: 100px;
     }
 
     .container-fluid {
@@ -792,7 +798,7 @@ footer .container .sec p {
     /* section2 */
 
     section1 {
-        grid-template-columns:1fr;
+        grid-template-columns: 1fr;
     }
 
     .containerAccion {
@@ -904,4 +910,3 @@ footer .container .sec p {
 
     }
 }
-

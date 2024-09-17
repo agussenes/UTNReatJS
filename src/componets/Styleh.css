@@ -63,7 +63,10 @@ section1 {
 .containerBio h2 {
     text-align: center;
     padding: 20px;
-    font-weight: bold;
+    font-weight: 700;
+    color: #E4572E;
+    font-size: 36px;
+   
 }
 
 .containerBio ul {

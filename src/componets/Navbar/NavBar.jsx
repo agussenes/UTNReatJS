@@ -68,7 +68,7 @@ const NavBar = ({ onBuscar }) => {
             </Link>
           </li>
           <li>
-            <Link to="/">
+            <Link to="/Contacto">
               Contacto
             </Link>
           </li>

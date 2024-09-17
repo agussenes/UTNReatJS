@@ -58,8 +58,8 @@ const NavBar = ({ onBuscar }) => {
             </Link>
           </li>
           <li>
-            <Link to="#productosDestacados">
-               Productos
+            <Link to="./Catalogo">
+               Catálogo
             </Link>
           </li>
           <li>

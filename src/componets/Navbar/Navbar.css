@@ -57,6 +57,7 @@ body{
     background-color: #30646B;
     padding: 2rem 1rem;
     text-align: center; 
+    
 
 }
 
@@ -94,10 +95,11 @@ body{
 
 
 .navLinks a{
+    
     font-size: 1.3rem;
     color: #ffffff;
     text-decoration: none;
-    transition: all .9s ease;  
+    transition: all 1.2s ease;  
     
 
 }
@@ -111,23 +113,72 @@ body{
 }
 
 .searchBar {
+
     flex-grow: 1;
-    margin: 0 20px;
+    margin: 0 1.2rem;
     width: 100%;
     display: none;
     justify-content: center;
   }
   
   .searchBar input {
-    width: 100%;
-    padding: 5px;
-    font-size: 14px;
+
+    width: 22rem;
+    padding: .3rem;
+    font-size: .9rem;
+    border-color: #71a17d;
     border-radius: 2rem;
+    background-color: #95be9f;
+    font-style: oblique;
+
+    
+  }
+
+  .listaProductosContainer {
+    position: absolute;
+    z-index: 10;
+    top: 5rem;
+    left: 23.6rem;
+    
   }
 
   .listaProductos {
-    background: #497D56;
+    width: 21rem;
+    color: #f0f0f0;
+    align-items: left;
+    justify-content: center;
+    font-size: .6rem;
+    background: #497D56; 
+
+    padding-left: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+
+
   }
+    
+
+    
+
+    
+    
+  
+  .listaProductos h3 {
+    font-size: 1.2rem;
+  }
+
+ .productosLista {
+   
+
+    margin-bottom: .6rem;
+    
+ }
+
+
+
+
+
 
 
 @media screen and (min-width: 501px) {
@@ -166,6 +217,7 @@ body{
 
     .searchBar {
         display: flex;
+
 
     }
 

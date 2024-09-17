@@ -1,0 +1,50 @@
+.seccionCatalogo {
+    width: 100%;
+    
+    background-color: #f1d28f;
+
+    padding: 1.2rem;
+
+}
+
+.topCatalogo {
+    width: 100%;
+    background-color: #f1d28f;
+    
+
+    text-align: center;
+    margin-bottom: 1.8rem;
+
+
+}
+
+.topCatalogo h2 {
+  font-size: 2.7rem;
+  font-weight: bolder;
+  color: #13373b;
+}
+
+.contenedorCatalogo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    
+    justify-content: center;
+  }
+  
+.tarjetaProducto {
+    border: 1px solid #30646B;
+    border-radius: 8px;
+    padding: 16px;
+    width: 250px;
+    text-align: center;
+
+
+    background-color: #fde4af;
+  }
+  
+.tarjetaProducto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }

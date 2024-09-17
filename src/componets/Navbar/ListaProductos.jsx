@@ -2,18 +2,22 @@ import React from 'react';
 
 const ListaProductos = ({ productos }) => {
   if (productos.length === 0) {
-    return 
+    return null
     ;
   }
 
   return (
-    <div className="listaProductos">
-      {productos.map((producto) => (
-        <div key={producto.id} className="producto">
+    <div className="listaProductosContainer">
+      <div className="listaProductos">
+      {productos.slice(0, 9).map((producto) => (
+      
+        <div key={producto.id} className="productosLista">
           <h3>{producto.nombre}</h3>
           <p>{producto.descripcion}</p>
-        </div>
+      </div>
+    
       ))}
+    </div>
     </div>
   );
 };

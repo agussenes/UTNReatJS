@@ -63,7 +63,7 @@ const NavBar = ({ onBuscar }) => {
             </Link>
           </li>
           <li>
-            <Link to="/">
+            <Link to="/Nosotros">
                Nosotros
             </Link>
           </li>

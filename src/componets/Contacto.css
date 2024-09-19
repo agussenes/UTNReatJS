@@ -43,9 +43,14 @@
     font-size: 3.5rem;
     transition: 0.5s;
     cursor: pointer;
-    width: ;
+  
 }
 
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 @media screen and (max-width: 767px){
     .formYubi{
@@ -57,6 +62,77 @@
 @media screen and (max-width: 991px){
     .formYubi{
         grid-template-columns: 1fr;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+    .formYubi{
+        grid-template-columns: 1fr;
+    }
+
+    .redesSociales{
+        display: grid;
+        grid-template-columns: repeat( 3, 1fr);
+    }
+
+}
+
+@media screen and (max-width: 1360px){
+    .redesSociales{
+        display: grid;
+        grid-template-columns: repeat( 3, 1fr);
+    }
+
+}
+
+@media screen and (max-width: 1920px){
+   
+    .formYubi{
+        padding-right: 22rem;
+        padding-left: 22rem;
+    }
+
+    .redesSociales{
+        display: grid;
+        grid-template-columns: repeat( 3, 1fr);
+        
+        
+    }
+
+    .cabecera h2{
+        font-size: 50px;
+    }
+    
+    .ubicacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #FDE4AF;
+        width: max-content;
+        height: max-content;
+        border-radius: 2rem;
+    }
+
+    .ubicacion h3{
+        font-size: 40px; 
+        margin-bottom: 3rem;
+    }
+
+    .facebook{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .instagram{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .whatsapp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 }

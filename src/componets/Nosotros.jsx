@@ -1,10 +1,16 @@
-
+import './Nosotros/nosotrosCSS.css'
+import Historia from './Nosotros/Historia';
+import Valores from './Nosotros/Valores';
+import LlamadaAccionN from './Nosotros/LlamadaAccionN';
 
 const Nosotros = () => {
 
     return(
         <>
-        <h2>en proceso</h2>
+        <Historia />
+        <Valores />
+        <LlamadaAccionN />
+
         </>
     )
 };

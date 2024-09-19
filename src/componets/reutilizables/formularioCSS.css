@@ -1,4 +1,6 @@
-
+/* /////////////////////////////////
+ESTE CSS ESTA ECHO DE MOBILES A PC
+////////////////////////////////// */
 
 .contenedorGeneralFormulario {
     padding-right: 2rem;
@@ -11,6 +13,7 @@
     background-color: #30646B;
     margin: 1rem;
     border-radius: 0.7rem;
+    width: max-content;
 }
 
 .contenedorGeneralFormulario form{
@@ -39,7 +42,8 @@
 }
 
 .boxMensaje input{
-    height: 3rem;
+    height: 5rem;
+    width: 100%;
 }
 
 .marginEmail{
@@ -71,3 +75,5 @@
 .mensajeEnviado{
     color: #fff;
 }
+
+

@@ -30,7 +30,7 @@ section1 {
     background-color: #f1d28f;
     display: grid;
     grid-template-columns: 1fr;
-    padding-top: 30px;
+    padding-top: 100px;
     padding-bottom: 30px;
     padding-right: 150px;
     padding-left: 150px;
@@ -268,6 +268,7 @@ footer .container {
     grid-gap: 20px;
 }
 
+
 footer .container .sec h2 {
     position: relative;
     color: rgb(255, 255, 255);
@@ -311,15 +312,17 @@ footer .container .sec p {
     justify-content: center;
     text-decoration: none;
     border-radius: 50%;
+    transition: all 1s ease;
 
 }
 
 .sci li a:hover {
-    background: #146b2a;
+    color: #ffae00 ;
+    background: #0a2516;
 }
 
 .sci li a {
-    color: #db697c;
+    color: #306461;
     font-size: 26px;
 }
 
@@ -394,35 +397,35 @@ footer .container .sec p {
 }
 
 .newsletter {
-
-
-
+    justify-content: space-around;
     color: #ffffff
 }
 
-.newsletter .container {
+.newsletter form {
+    justify-content: space-around;
+}
+
+.containerNews {
+    margin-top: 1.5rem;
     align-items: center;
-
 }
 
-.newsletter .container h1 {
-    font-size: 27px;
-
+.containerNews h1{
+    font-size: 1rem;
+    margin-bottom: .75rem;
 }
+
 
 .newsMail {
-
     border-radius: 1rem;
-
 
 }
 
-
-.newsButton {
+ .newsButton {
 
     border-radius: 1rem;
     width: 6rem;
-
+    
 }
 
 .suscriptors {
@@ -436,7 +439,11 @@ footer .container .sec p {
 
     align-items: center;
 
-    font-size: 27px;
+    font-size: 21px;
+}
+
+.QuienesSomos {
+    justify-content: center;
 }
 
 
@@ -454,24 +461,33 @@ footer .container .sec p {
     display: flex;
     flex-direction: column;
     padding: 0.6rem;
+    padding-top: 4.5rem;
     background-color: #F1D28F;
+    
 }
 
 .containerFormulario h2 {
-    border-bottom: 2px solid #fff;
+    width: 100%;
+    border-bottom: 2px solid #13373b;
+    padding-bottom: 2rem;
+
+    background-color: #FDE4AF;
+
+    text-align: center;
 }
+
 
 .containerFormulario form {
     background-color: #FDE4AF;
     border: 0.06rem solid #000000;
-    padding: 1.56rem;
+    padding: 1.2rem;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     text-align: center;
     margin-left: 19rem;
     margin-right: 19rem;
     margin-top: 1.56rem;
-    margin-bottom: 1.56rem;
+    margin-bottom: .6rem;
     border-radius: 1rem;
     box-shadow: 1px 4px 2px #f8ec849f;
     width: 75%;
@@ -486,7 +502,7 @@ footer .container .sec p {
 }
 
 #imgProducto {
-    background-color: #fcfde8;
+    background-color: #FDE4AF;
     width: auto;
     justify-self: center;
 }
@@ -557,12 +573,16 @@ footer .container .sec p {
 #productosAgregados h2 {
     font-size: 38px;
     text-align: center;
+    background-color: #30646B;
+    color: #ffffff;
+    
 
 }
 
 #productosAgregados p {
     text-align: center;
     font-size: 26px;
+    color: #ffffff;
 
 }
 
@@ -576,10 +596,12 @@ footer .container .sec p {
     background-color: #30646B
 }
 
+
 .containerFormulario h2 {
-    color: #ffffff;
+    color: #13373b;
+
     font-weight: 600;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 

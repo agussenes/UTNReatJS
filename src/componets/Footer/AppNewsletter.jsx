@@ -17,9 +17,9 @@ const AppNewsletter = () => {
   }
 
   return(
-    <div className="container">
+    <div className="containerNews">
       <h1>
-        Suscribete para recibir nuestras promociones
+        Recibe nuestras promociones y novedades
       </h1>
       <FormsNewsletter agregarSuscriptor={agregarSuscriptor} />
       <ListaSuscriptores suscriptores={suscriptores} />

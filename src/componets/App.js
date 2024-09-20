@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from "./Navbar/NavBar.jsx";
-import ListaProductos from './Navbar/ListaProductos.jsx';
 import BodyMain from './BodyMain.jsx'
 import Footer from "./Footer/Footer.jsx";
 import Catalogo from "./Catalogo/Catalogo.jsx";
@@ -39,8 +38,8 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <NavBar onBuscar={setTerminoBusqueda} />
-      <ListaProductos productos={productosFiltrados} />
+      <NavBar onBuscar={setTerminoBusqueda} productos={productosFiltrados} />
+
       <Routes>
         <Route path="/" element={<BodyMain/>} />
         <Route path="/Catalogo" element={<Catalogo />} />

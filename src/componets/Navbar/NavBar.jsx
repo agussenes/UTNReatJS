@@ -3,12 +3,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faFileText, faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import logo from '../../imagenes/LogoConNombreeee.png'
 import './Navbar.css';
-
 import { Link } from 'react-router-dom';
+import ListaProductos from './ListaProductos';
 
 
 
-const NavBar = ({ onBuscar }) => {
+
+
+const NavBar = ({ onBuscar, productos }) => {
 
   const [menuOpen, setMenuOpen] = useState(false);
   const [terminoBusqueda, setTerminoBusqueda] = useState('');
@@ -17,10 +19,17 @@ const NavBar = ({ onBuscar }) => {
     setMenuOpen(!menuOpen);
   };
 
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
+  
   const handleSearchChange = (e) => {
     setTerminoBusqueda(e.target.value);
     onBuscar(e.target.value);
   };
+  
+
   
   return (
 
@@ -39,6 +48,7 @@ const NavBar = ({ onBuscar }) => {
           value={terminoBusqueda}
           onChange={handleSearchChange}
         />
+        <ListaProductos productos={productos} /> 
       </div>
 
       
@@ -51,35 +61,35 @@ const NavBar = ({ onBuscar }) => {
 
 
 
-        <ul className={`navLinks ${menuOpen ? 'show' : ''}`}>
-          <li>
-            <Link to="/">
-               Inicio
+        <ul className={`navLinks ${menuOpen ? 'show' : 'hide'}`}>
+        <li>
+            <Link to="/" onClick={closeMenu}>
+              Inicio
             </Link>
           </li>
           <li>
-            <Link to="./Catalogo">
-               Catálogo
+            <Link to="/Catalogo" onClick={closeMenu}>
+              Catálogo
             </Link>
           </li>
           <li>
-            <Link to="/">
-               Nosotros
+            <Link to="/" onClick={closeMenu}>
+              Nosotros
             </Link>
           </li>
           <li>
-            <Link to="/">
+            <Link to="/" onClick={closeMenu}>
               Contacto
             </Link>
           </li>
           <li>
-            <Link to="./Formulario-Crear-Producto">
-              <FontAwesomeIcon icon={faFileText} aria-hidden="true" />
+            <Link to="/" onClick={closeMenu}>
+              <FontAwesomeIcon icon={faCartShopping} />
             </Link>
           </li>
           <li>
-            <Link to="/">
-              <FontAwesomeIcon icon={faCartShopping} />
+            <Link to="/Formulario-Crear-Producto" onClick={closeMenu}>
+              <FontAwesomeIcon icon={faFileText} aria-hidden="true" />
             </Link>
           </li>
         </ul>

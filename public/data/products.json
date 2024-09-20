@@ -597,7 +597,157 @@
   "nombre": "Rompecabezas de Madera", 
   "precio": 600, 
   "descripcion": "Descripcion producto 5",
-  "imagen": "../imagenesProductos/rompecabezas.jpeg" }
+  "imagen": "../imagenesProductos/rompecabezas.jpeg" },
+
+  { "id": 101, 
+  "nombre": "Juego Montessori", 
+  "precio": 1000, 
+  "descripcion": "Descripcion producto 1",
+  "imagen": "../imagenesProductos/juegoMontessori.jpeg" },
+
+  { "id": 102, 
+  "nombre": "Encastres de Madera", 
+  "precio": 550, 
+  "descripcion": "Descripcion producto 2",
+  "imagen": "../imagenesProductos/encastresFormasMadera.jpeg" },
+
+  { "id": 103, 
+  "nombre": "Juguete de Madera", 
+  "precio": 400, 
+  "descripcion": "Descripcion producto 3",
+  "imagen": "../imagenesProductos/rompecabezamaderaia.jpg" },
+
+  { "id": 104, 
+  "nombre": "Domino Animales", 
+  "precio": 400, 
+  "descripcion": "Descripcion producto 4",
+  "imagen": "../imagenesProductos/dominoAnimales.jpeg" },
+
+  { "id": 105, 
+  "nombre": "Rompecabezas de Madera", 
+  "precio": 600, 
+  "descripcion": "Descripcion producto 5",
+  "imagen": "../imagenesProductos/rompecabezas.jpeg" },
+
+  { "id": 106, 
+  "nombre": "Minutas en Madera", 
+  "precio": 750, 
+  "descripcion": "Descripcion producto 6",
+  "imagen": "../imagenesProductos/minutasMadera.jpeg" },
+
+  { "id": 107, 
+  "nombre": "Juego Montessori", 
+  "precio": 1000, 
+  "descripcion": "Descripcion producto 1",
+  "imagen": "../imagenesProductos/juegoMontessori.jpeg" },
+
+  { "id": 108, 
+  "nombre": "Encastres de Madera", 
+  "precio": 550, 
+  "descripcion": "Descripcion producto 2",
+  "imagen": "../imagenesProductos/encastresFormasMadera.jpeg" },
+
+  { "id": 109, 
+  "nombre": "Juguete de Madera", 
+  "precio": 400, 
+  "descripcion": "Descripcion producto 3",
+  "imagen": "../imagenesProductos/rompecabezamaderaia.jpg" },
+
+  { "id": 110, 
+  "nombre": "Domino Animales", 
+  "precio": 400, 
+  "descripcion": "Descripcion producto 4",
+  "imagen": "../imagenesProductos/dominoAnimales.jpeg" },
+
+  { "id": 111, 
+  "nombre": "Rompecabezas de Madera", 
+  "precio": 600, 
+  "descripcion": "Descripcion producto 5",
+  "imagen": "../imagenesProductos/rompecabezas.jpeg" },
+
+  { "id": 112, 
+  "nombre": "Minutas en Madera", 
+  "precio": 750, 
+  "descripcion": "Descripcion producto 6",
+  "imagen": "../imagenesProductos/minutasMadera.jpeg" },
+
+  { "id": 113, 
+  "nombre": "Juego Montessori", 
+  "precio": 1000, 
+  "descripcion": "Descripcion producto 1",
+  "imagen": "../imagenesProductos/juegoMontessori.jpeg" },
+
+  { "id": 114, 
+  "nombre": "Encastres de Madera", 
+  "precio": 550, 
+  "descripcion": "Descripcion producto 2",
+  "imagen": "../imagenesProductos/encastresFormasMadera.jpeg" },
+
+  { "id": 115, 
+  "nombre": "Juguete de Madera", 
+  "precio": 400, 
+  "descripcion": "Descripcion producto 3",
+  "imagen": "../imagenesProductos/rompecabezamaderaia.jpg" },
+
+  { "id": 116, 
+  "nombre": "Domino Animales", 
+  "precio": 400, 
+  "descripcion": "Descripcion producto 4",
+  "imagen": "../imagenesProductos/dominoAnimales.jpeg" },
+
+  { "id": 117, 
+  "nombre": "Rompecabezas de Madera", 
+  "precio": 600, 
+  "descripcion": "Descripcion producto 5",
+  "imagen": "../imagenesProductos/rompecabezas.jpeg" },
+
+  { "id": 118, 
+  "nombre": "Minutas en Madera", 
+  "precio": 750, 
+  "descripcion": "Descripcion producto 6",
+  "imagen": "../imagenesProductos/minutasMadera.jpeg" },
+
+  { "id": 119, 
+  "nombre": "Juego Montessori", 
+  "precio": 1000, 
+  "descripcion": "Descripcion producto 1",
+  "imagen": "../imagenesProductos/juegoMontessori.jpeg" },
+
+  { "id": 120, 
+  "nombre": "Encastres de Madera", 
+  "precio": 550, 
+  "descripcion": "Descripcion producto 2",
+  "imagen": "../imagenesProductos/encastresFormasMadera.jpeg" },
+
+  { "id": 121, 
+  "nombre": "Juguete de Madera", 
+  "precio": 400, 
+  "descripcion": "Descripcion producto 3",
+  "imagen": "../imagenesProductos/rompecabezamaderaia.jpg" },
+
+  { "id": 122, 
+  "nombre": "Domino Animales", 
+  "precio": 400, 
+  "descripcion": "Descripcion producto 4",
+  "imagen": "../imagenesProductos/dominoAnimales.jpeg" },
+
+  { "id": 123, 
+  "nombre": "Rompecabezas de Madera", 
+  "precio": 600, 
+  "descripcion": "Descripcion producto 5",
+  "imagen": "../imagenesProductos/rompecabezas.jpeg" },
+
+  { "id": 124, 
+  "nombre": "Minutas en Madera", 
+  "precio": 750, 
+  "descripcion": "Descripcion producto 6",
+  "imagen": "../imagenesProductos/minutasMadera.jpeg" },
+
+  { "id": 125, 
+  "nombre": "Juego Montessori", 
+  "precio": 1000, 
+  "descripcion": "Descripcion producto 1",
+  "imagen": "../imagenesProductos/juegoMontessori.jpeg" }
 
 
 ]

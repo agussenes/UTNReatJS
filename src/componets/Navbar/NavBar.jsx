@@ -73,12 +73,12 @@ const NavBar = ({ onBuscar, productos }) => {
             </Link>
           </li>
           <li>
-            <Link to="/" onClick={closeMenu}>
-              Nosotros
+            <Link to="/Nosotros" onClick={closeMenu}>
+               Nosotros
             </Link>
           </li>
           <li>
-            <Link to="/" onClick={closeMenu}>
+            <Link to="/Contacto">
               Contacto
             </Link>
           </li>

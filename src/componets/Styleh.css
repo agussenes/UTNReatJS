@@ -10,6 +10,11 @@
 
 }
 
+#linkAccion{
+   list-style-type: none;
+   text-decoration: none;
+}
+
 
 body {
     display: grid;
@@ -63,7 +68,10 @@ section1 {
 .containerBio h2 {
     text-align: center;
     padding: 20px;
-    font-weight: bold;
+    font-weight: 700;
+    color: #E4572E;
+    font-size: 36px;
+   
 }
 
 .containerBio ul {
@@ -81,8 +89,29 @@ section1 {
 
 }
 
+.bton{
+    border-radius: 15px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #fff;
+    background-color: #E4572E;
+    border: 1px solid #fff;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-size: 18px;
+}
 
+.bton:hover{
+    color: #E4572E;
+    background-color:#fff;   
+    font-weight: 600;
+}
 
+.containerButtonQS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* •---------------------FIN-SECCION-1---------------------• */
 
@@ -132,6 +161,7 @@ section2 {
     text-align: center;
     position: relative;
     border-radius: 15px;
+    cursor: pointer;
 
 }
 
@@ -147,18 +177,16 @@ section2 {
     font-size: 27px;
     font-weight: bold;
     color: #ffffff;
-
+    border-color: transparent;
+    text-decoration: none;
 }
 
 .accion h3:hover {
-    color: #ff5151;
+    color: #FDE4AF;
 }
 
-.accion:hover {
-    border: 2px;
-    border-color: #2a2294, ;
-    border-style: solid;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+.accion:hover {   
+    box-shadow: 0px 4px 16px #FDE4AF;
 
 }
 

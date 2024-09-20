@@ -4,7 +4,9 @@ import NavBar from "./Navbar/NavBar.jsx";
 import BodyMain from './BodyMain.jsx'
 import Footer from "./Footer/Footer.jsx";
 import Catalogo from "./Catalogo/Catalogo.jsx";
+import Contacto from './Contacto.jsx'
 import FormularioCrearProducto from "./FormularioCrearProducto.jsx"
+import Nosotros from "./Nosotros.jsx"
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import '../componets/Styleh.css'
 
@@ -43,7 +45,9 @@ const App = () => {
       <Routes>
         <Route path="/" element={<BodyMain/>} />
         <Route path="/Catalogo" element={<Catalogo />} />
+        <Route path="/Contacto" element={<Contacto />} />
         <Route path="/Formulario-Crear-Producto" element={<FormularioCrearProducto />} />
+        <Route path="/Nosotros" element={<Nosotros />} />
       </Routes>
       <Footer/>
 

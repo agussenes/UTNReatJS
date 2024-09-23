@@ -48,7 +48,7 @@ const FooterButton = () => {
     return (
         <button className="personalizaProducto" style={{ bottom: buttonBottom }}>
             <h3>Personalizá tu producto</h3>
-            <p>Click <span>"AQUI"</span> para crear su produto</p>
+            <p>Click <span>"AQUI"</span> para crear su producto</p>
         </button>
     );
 };

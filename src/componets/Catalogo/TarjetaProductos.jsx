@@ -11,7 +11,7 @@ const TarjetaProductos = ({ producto, onAgregar }) => {
       <p>{producto.descripcion}</p>
       <p>Precio: ${producto.precio}</p>
       <div className="buttonContainer">
-      <button className="buttonComprar">Comprar</button><button className="buttonAddChart" onClick={() => onAgregar(producto)} >Adicionar al Carrito</button>
+      <button className="buttonComprar">Comprar</button><button className="buttonAddChart" onClick={() => onAgregar(producto)} >Agregar al Carrito</button>
       </div>  
     </div>
 

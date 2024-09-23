@@ -91,13 +91,11 @@ body{
     transition: all .2s ease; 
     border-top: 0.15rem solid transparent;
     border-bottom: 0.15rem solid transparent;
-
-
+    font-size: 1.23rem;    
     
 }
 
-.carritoNavbar:hover {
-   
+.carritoNavbar:hover {    
     color: #fde4af;
     border-bottom: 0.15rem solid #dbea9f;
     border-top: 0.15rem solid #dbea9f;

@@ -16,15 +16,15 @@ ESTE CSS ESTA ECHO DE MOBILES A PC
     padding-bottom: 3rem;
     background-color: #FDE4AF;
     margin-top: 2.5rem;
-  
+
 }
 
 .contentHero h2 {
-    color: #E4572E;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #13373b;
+    padding: 1.2rem 0;
     text-align: center;
-    font-size: 35px;
-    font-weight: 500;
- 
 }
 
 .contentHero p {
@@ -51,17 +51,25 @@ ESTE CSS ESTA ECHO DE MOBILES A PC
 .contenedores {}
 
 .contenedores h2 {
-    color: #E4572E;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color: #13373b;
+    padding: 1.2rem 0;
+    background-color:#fde4af;
+    border-radius: .6rem;
+    width: 100%;
     text-align: center;
-    font-size: 35px;
-    font-weight: 500;
 }
 
 .contenedores h3 {
-    color: #E4572E;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color: #13373b;
+    padding: 1.2rem 0;
+    background-color:#fde4af;
+    border-radius: .6rem;
+    width: 100%;
     text-align: center;
-    font-size: 30px;
-    font-weight: 500;
 }
 
 .contenedores p {
@@ -112,7 +120,7 @@ ESTE CSS ESTA ECHO DE MOBILES A PC
         padding-bottom: 4rem;
     }
 
-    .containerValoresyObjetivos{
+    .containerValoresyObjetivos {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1rem;
@@ -129,7 +137,7 @@ ESTE CSS ESTA ECHO DE MOBILES A PC
     }
 
     .contenedores {
-        display:flex;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -150,7 +158,7 @@ ESTE CSS ESTA ECHO DE MOBILES A PC
         padding-bottom: 4rem;
     }
 
-    .containerValoresyObjetivos{
+    .containerValoresyObjetivos {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1rem;
@@ -167,7 +175,7 @@ ESTE CSS ESTA ECHO DE MOBILES A PC
     }
 
     .contenedores {
-        display:flex;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -188,7 +196,7 @@ ESTE CSS ESTA ECHO DE MOBILES A PC
         padding-bottom: 4rem;
     }
 
-    .containerValoresyObjetivos{
+    .containerValoresyObjetivos {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1rem;
@@ -205,7 +213,7 @@ ESTE CSS ESTA ECHO DE MOBILES A PC
     }
 
     .contenedores {
-        display:flex;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -219,10 +227,9 @@ ESTE CSS ESTA ECHO DE MOBILES A PC
         align-items: center;
     }
 
-    .contenedoresIMG img{
+    .contenedoresIMG img {
         width: 78%;
         height: auto;
     }
 
 }
-

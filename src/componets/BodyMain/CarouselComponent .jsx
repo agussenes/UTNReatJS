@@ -17,7 +17,8 @@ const CarouselComponent = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3 className='tituloItemCarousel'>Domino Animales</h3>
+            <div className='contenedorCarousel'><h3 className='tituloItemCarousel'>Domino Animales</h3></div>
+            
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -28,7 +29,7 @@ const CarouselComponent = () => {
             alt="Second slide"
           />
           <Carousel.Caption>
-            <h3 className='tituloItemCarousel'>Encantres de Madera</h3>
+          <div className='contenedorCarousel'> <h3 className='tituloItemCarousel'>Encantres de Madera</h3></div>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -39,7 +40,7 @@ const CarouselComponent = () => {
             alt="Third slide"
           />
           <Carousel.Caption>
-            <h3 className='tituloItemCarousel'>Rompecabezas de Animales</h3>
+          <div className='contenedorCarousel'><h3 className='tituloItemCarousel'>Rompecabezas de Animales</h3></div>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

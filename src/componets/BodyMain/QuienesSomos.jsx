@@ -15,11 +15,13 @@ const QuienesSomos = () => {
             <li><strong>Fomento de la Creatividad:</strong> Nos esforzamos por crear juguetes y muebles que estimulen la imaginación y la creatividad de los niños, permitiéndoles expresarse libremente y desarrollar sus habilidades únicas.</li>
           </ul>
           <div className='containerButtonQS'>
-          <Link to="/Nosotros"><button className='bton'>Conoce más</button></Link>
+            <Link to="/Nosotros"><button className='bton'>Conoce más</button></Link>
+          </div>
         </div>
+        <div className='contenedorCarousel'>
+          <CarouselComponent />
         </div>
-       
-        <CarouselComponent />
+
 
       </section1>
     </>

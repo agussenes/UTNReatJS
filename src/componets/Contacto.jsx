@@ -10,12 +10,13 @@ const Contacto = () => {
     return (
         <div className='ContainerGenContacto'>
             <div className='cabecera'>
-                <h2>Pone en contacto con nosotros!</h2>               
+                <h2>Ponete en contacto con nosotros!</h2>               
             </div>
             <div className='formYubi'>
                 <div className='formulario'>
                     <Formulario />
                 </div>
+                <div className='contenedorredesflex'>
                 <div className='ubicacion'>
                     <h3>Seguinos en nuestras redes</h3>
                     <div className='redesSociales'>
@@ -31,6 +32,7 @@ const Contacto = () => {
                         </div>
 
                     </div>
+                </div>
                 </div>
             </div>
         </div>

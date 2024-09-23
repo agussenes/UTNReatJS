@@ -3,6 +3,7 @@
 }
 
 .tituloItemCarousel{
+width: 70%;
 
 }
 
@@ -11,4 +12,13 @@
     font-weight:900 ;
     background-color: rgba(0, 0, 0, 0.384);
     border-radius: 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+
+.contenedorCarousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

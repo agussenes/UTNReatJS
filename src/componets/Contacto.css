@@ -3,7 +3,7 @@
 .ContainerGenContacto{
     background-color: #F1D28F;
     margin-top: -1rem;
-    padding-top: 4.5rem;
+    min-height: 60vh;
 }
 
 .formYubi{
@@ -12,14 +12,21 @@
 }
 
 .cabecera{
+    margin-top: 5rem;
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 1rem;    
 }
 
-.cabecera h2{
-    font-weight: 700;
-    color: #E4572E;
+.cabecera h2{    
+    font-size: 24px;
+    font-weight: bolder;
+    color: #13373b;
+    padding: 1.2rem 0;
+    background-color:#fde4af;
+    border-radius: .6rem;
+    margin-left: 2rem;
+    margin-right:2rem;
 }
 
 .ubicacion{
@@ -29,7 +36,9 @@
 .ubicacion h3{
     text-align: center;
     font-weight: 500;
-    color: #E4572E;
+    color: #13373b;
+    font-size: 22px;
+    font-weight: bolder;
 }
 
 .redesSociales{
@@ -51,6 +60,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
+}
+.contenedorredesflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
 }
 
 @media screen and (max-width: 767px){
@@ -90,8 +105,8 @@
 @media screen and (max-width: 1920px){
    
     .formYubi{
-        padding-right: 22rem;
-        padding-left: 22rem;
+        padding-right: 12rem;
+        padding-left: 12rem;
     }
 
     .redesSociales{
@@ -99,10 +114,6 @@
         grid-template-columns: repeat( 3, 1fr);
         
         
-    }
-
-    .cabecera h2{
-        font-size: 50px;
     }
     
     .ubicacion{
@@ -115,10 +126,7 @@
         border-radius: 2rem;
     }
 
-    .ubicacion h3{
-        font-size: 40px; 
-        margin-bottom: 3rem;
-    }
+   
 
     .facebook{
         display: flex;

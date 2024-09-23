@@ -63,14 +63,15 @@ section1 {
     padding: 0px 100px;
     height: auto;
     margin-bottom: 2rem;
+    border-radius: 0.6rem;
 }
 
 .containerBio h2 {
     text-align: center;
     padding: 20px;
-    font-weight: 700;
-    color: #E4572E;
-    font-size: 36px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #13373b;
    
 }
 

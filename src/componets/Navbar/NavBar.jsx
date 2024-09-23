@@ -10,7 +10,7 @@ import ListaProductos from './ListaProductos';
 
 
 
-const NavBar = ({ onBuscar, productos }) => {
+const NavBar = ({ onBuscar, productos, carrito }) => {
 
   const [menuOpen, setMenuOpen] = useState(false);
   const [terminoBusqueda, setTerminoBusqueda] = useState('');
@@ -28,6 +28,10 @@ const NavBar = ({ onBuscar, productos }) => {
     setTerminoBusqueda(e.target.value);
     onBuscar(e.target.value);
   };
+
+  const totalProductos = carrito.reduce((total, producto) => {
+    return total + (producto.cantidad || 0);
+  }, 0);
   
 
   
@@ -78,13 +82,13 @@ const NavBar = ({ onBuscar, productos }) => {
             </Link>
           </li>
           <li>
-            <Link to="/Contacto">
+            <Link to="/Contacto" onClick={closeMenu}>
               Contacto
             </Link>
           </li>
           <li>
-            <Link to="/" onClick={closeMenu}>
-              <FontAwesomeIcon icon={faCartShopping} />
+            <Link to="/Carrito" onClick={closeMenu}>
+              <div className="carritoNavbar"><FontAwesomeIcon icon={faCartShopping}/><span className="carritoTotalNav"> {totalProductos} </span></div>
             </Link>
           </li>
           <li>

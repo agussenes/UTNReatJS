@@ -1,32 +1,38 @@
 .seccionCatalogo {
-    width: 100%;
-    box-sizing: border-box;
-    background-color: #f1d28f;
-    padding: 1.2rem;
-    justify-content: center;
-    box-sizing: border-box;
 
-}
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #f1d28f;
+    padding: 2.1rem;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    gap: 6rem;
+
+
+}   
 
 .topCatalogo {
+
     width: 100%;
     background-color: #f1d28f;
     text-align: center;
-    margin-bottom: 3rem;
-    padding-top: 4.5rem;
+    margin-bottom: 2rem;
+    margin-top: 3.9rem;
     align-items: center;
-
-
+  
 
 }
 
 .topCatalogo h2 {
-  width: 100%;
-  font-size: 2.1rem;
+
+  font-size: 1.5rem;
   font-weight: bolder;
   color: #13373b;
-
+  padding: 1.2rem 0;
   background-color:#fde4af;
+  border-radius: .6rem;
 }
 
 .contenedorCatalogo {
@@ -37,19 +43,26 @@
     width: 100%;
     box-sizing: border-box;
 
-   
+  
   }
   
 .tarjetaProducto {
     border: .1rem solid #306461;
     border-radius: .6rem;
-    min-width: 15rem;
-    max-width: 15rem;
-    min-height: 19rem;
-    max-height: 19rem;
+    min-width: 18rem;
+    max-width: 19rem;
+    min-height: 24rem;
+    max-height: 24rem;
     text-align: center;
     background-color: #fde4af;
     font-size: .7rem;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: .3rem;
+    
     transition: background-color 0.6s ease-in-out;
 
   }
@@ -60,8 +73,13 @@
   }
 
 .tarjetaProducto h3 {
-  font-size: 1.35rem;
+  font-size: 1.2rem;
+  margin: 0 2rem;
 
+}
+
+.tarjetaProducto p {
+  margin: 1rem 2rem;
 }
   
 .tarjetaProducto img {
@@ -76,15 +94,46 @@
     padding-bottom: .6rem;
   }
 
-  .pagination {
+  .buttonContainer {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: auto;
+  }
+
+  .buttonComprar, .buttonAddChart {
+    margin-bottom: 1rem;
+    padding: .3rem;
+    border-radius: .6rem;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #E4572E;
+    transition: background-color .9s ease;
+   
+  }
+
+  .buttonComprar:hover, .buttonAddChart:hover {
+    background-color: #306461;
+  }
+
+  .sectorPagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    padding-bottom: 1rem;
+ 
+}
+
+  .pagination {
+    align-items: center;
     list-style: none;
     padding: 0;
   }
   
   .pagination li {
-    margin: 0 0.3rem;
+    margin: 1rem 0.3rem 5rem;
+
   }
   
   .pagination li a {
@@ -117,7 +166,6 @@
   bottom: 20px; right: -40px; z-index: 1000;
   transition: bottom 0.3s ease;
 
-
 }
 
 .personalizaProducto h3 {
@@ -127,7 +175,6 @@
   padding-left: 0;
   padding-right: 1.5rem;
   color: #ffae00;
-  
   
 }
 
@@ -151,79 +198,124 @@
   font-weight: bolder;
 } 
 
-  @media (min-width: 551px) {
+  @media (min-width: 501px) {
 
   .contenedorCatalogo {
-      
+      width: 100%;
       flex-wrap: wrap;
     }
 
-  .tarjetaProducto {
-        
-      width: calc(50% - 16px); 
+    .topCatalogo {
+      width: 100%;
+  
     }
-}
+  
+    .topCatalogo h2 {
+      font-size: 1.9rem;
+    }
 
-@media (min-width: 651px) {
+  }
+
+@media (min-width: 601px) {
 
   .contenedorCatalogo {
-      
+    width: 100%;
       flex-wrap: wrap;
       gap: 3rem;
     }
 
-  .tarjetaProducto {
-        
-      width: calc(35% - 16px); 
+    .topCatalogo {
+      width: 100%;
+  
     }
+  
+    .topCatalogo h2 {
+      font-size: 2.1rem;
+    }
+
 }
 
 
 @media (min-width: 751px) {
 
   .contenedorCatalogo {
+    width: 100%;
     flex-wrap: wrap;
     }
 
-  .tarjetaProducto {
-    width: calc(30% - 16px); 
+    .topCatalogo {
+      width: 100%;
+  
     }
+  
+    .topCatalogo h2 {
+      font-size: 2.1rem;
+    }
+
 }
 
 @media (min-width: 901px) {
 
   .contenedorCatalogo {
-    flex-wrap: wrap;  
-    }
-  
-  .tarjetaProducto {
-    width: calc(25% - 16px); 
-    }
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+
+  .topCatalogo {
+    width: 100%;
+
+  }
+
+  .topCatalogo h2 {
+    font-size: 2.1rem;
+  }
+
+  .pagination li {
+    margin-bottom: 1rem;
+
+  }
+
 }
 
 @media (min-width: 1101px) {
 
   .contenedorCatalogo {
+    width: 100%;
     flex-wrap: wrap;
+    gap: 3.3rem;
   }
 
-  .tarjetaProducto {
-    width: calc(20% - 16px);
+  .topCatalogo {
+    width: 100%;
+
   }
+
+  .topCatalogo h2 {
+    font-size: 2.1rem;
+  }
+
 }
 
 @media (min-width: 1301px) {
 
   .contenedorCatalogo {
+    width: 100%;
     padding-left: 2.1rem;
     padding-right: 2.1rem;
-    gap: 3.6rem;
+    gap: 2.7rem;
     flex-wrap: wrap;  
   }
 
-  .tarjetaProducto {
-    width: calc(15% - 16px);
-    }
+  .topCatalogo {
+    width: 100%;
+
+  }
+
+  .topCatalogo h2 {
+    font-size: 2.1rem;
+  }
+
 }
 
 

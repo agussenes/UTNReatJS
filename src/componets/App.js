@@ -5,6 +5,7 @@ import BodyMain from './BodyMain.jsx'
 import Footer from "./Footer/Footer.jsx";
 import Catalogo from "./Catalogo/Catalogo.jsx";
 import Contacto from './Contacto.jsx'
+import Carrito from './Carrito/Carrito.jsx';
 import FormularioCrearProducto from "./FormularioCrearProducto.jsx"
 import Nosotros from "./Nosotros.jsx"
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
@@ -15,6 +16,7 @@ import '../componets/Styleh.css'
 const App = () => {
   const [terminoBusqueda, setTerminoBusqueda] = useState('');
   const [productos, setProductos] = useState([]);
+  const [carrito, setCarrito] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -39,18 +41,18 @@ const App = () => {
 
 
   return (
-    <BrowserRouter>
-      <NavBar onBuscar={setTerminoBusqueda} productos={productosFiltrados} />
+<BrowserRouter>
+      <NavBar onBuscar={setTerminoBusqueda} productos={productosFiltrados} carrito={carrito} />
 
       <Routes>
-        <Route path="/" element={<BodyMain/>} />
-        <Route path="/Catalogo" element={<Catalogo />} />
+        <Route path="/" element={<BodyMain />} />
+        <Route path="/Catalogo" element={<Catalogo setCarrito={setCarrito} />} />
         <Route path="/Contacto" element={<Contacto />} />
         <Route path="/Formulario-Crear-Producto" element={<FormularioCrearProducto />} />
         <Route path="/Nosotros" element={<Nosotros />} />
+        <Route path="/Carrito" element={<Carrito carrito={carrito} setCarrito={setCarrito} />} />
       </Routes>
-      <Footer/>
-
+      <Footer />
     </BrowserRouter>
   );
 };

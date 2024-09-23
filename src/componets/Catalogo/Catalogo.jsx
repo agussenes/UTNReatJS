@@ -3,12 +3,12 @@ import ReactPaginate from 'react-paginate';
 import TarjetaProductos from './TarjetaProductos';
 import './Catalogo.css';
 
-const Catalogo = () => {
+const Catalogo = ({setCarrito}) => {
 
     const [productos, setProductos] = useState([]);
 
     const [currentPage, setCurrentPage] = useState(0);
-    const itemsPerPage = 15;
+    const itemsPerPage = 12;
   
     useEffect(() => {
         
@@ -23,6 +23,7 @@ const Catalogo = () => {
       };
       fetchData();
     }, []);
+    
 
     const handlePageClick = (event) => {
       setCurrentPage(event.selected);
@@ -31,6 +32,26 @@ const Catalogo = () => {
     const offset = currentPage * itemsPerPage;
     const currentItems = productos.slice(offset, offset + itemsPerPage);
     const pageCount = Math.ceil(productos.length / itemsPerPage);
+
+    const agregarAlCarrito = (producto) => {
+      setCarrito((prevCarrito) => {
+       
+        const productoExistente = prevCarrito.find((item) => item.id === producto.id);
+    
+       
+        if (productoExistente) {
+          
+          return prevCarrito.map((item) =>
+            item.id === producto.id
+              ? { ...item, cantidad: item.cantidad + 1 } 
+              : item 
+          );
+        } else {
+          
+          return [...prevCarrito, { ...producto, cantidad: 1 }];
+        }
+      });
+    };
   
     return (
       
@@ -40,10 +61,12 @@ const Catalogo = () => {
         </div>
         <div className='contenedorCatalogo'>
           {currentItems.map((producto) => (
-            <TarjetaProductos key={producto.id} producto={producto} />
+            <TarjetaProductos key={producto.id} producto={producto} onAgregar={agregarAlCarrito} />
+
           ))}
         
 
+        <div className="sectorPagination">
 
         <ReactPaginate
           previousLabel={'Anterior'}
@@ -58,6 +81,8 @@ const Catalogo = () => {
           subContainerClassName={'pages pagination'}
           activeClassName={'active'}
         />
+
+        </div>
 
       </div>
 

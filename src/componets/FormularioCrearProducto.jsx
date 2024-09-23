@@ -55,7 +55,7 @@ function FormularioCrearProducto() {
 
   return (
     <div className='containerFormulario'>
-      <h2>CREAR NUEVO PRODUCTO</h2>
+      <h2>Crear Nuevo Producto</h2>
       <form id="agregarProducto" onSubmit={handleSubmit}>
         <label htmlFor="nombre">Nombre del Producto</label>
         <input

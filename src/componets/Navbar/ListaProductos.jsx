@@ -9,7 +9,7 @@ const ListaProductos = ({ productos }) => {
   return (
     <div className="listaProductosContainer">
       <div className="listaProductos">
-      {productos.slice(0, 9).map((producto) => (
+      {productos.slice(0, 7).map((producto) => (
       
         <div key={producto.id} className="productosLista">
           <h3>{producto.nombre}</h3>

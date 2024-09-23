@@ -11,6 +11,7 @@ body{
 }
 
 .containerNavbar {
+    
     width: 100%;
     background: #497D56;
     display: flex;
@@ -29,6 +30,7 @@ body{
     justify-content:end;
     align-items: center;
     width: 100%;
+
     
 
 }
@@ -78,10 +80,36 @@ body{
     z-index: 100;
     animation: slideDown 1s forwards;
 
-    
-   
 }
 
+
+.carritoNavbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: .3rem;
+    transition: all .2s ease; 
+    border-top: 0.15rem solid transparent;
+    border-bottom: 0.15rem solid transparent;
+
+    
+
+    
+}
+
+.carritoNavbar:hover {
+   
+    color: #fde4af;
+    border-bottom: 0.15rem solid #dbea9f;
+    border-top: 0.15rem solid #dbea9f;
+
+}
+
+.carritoTotalNav {
+    font-size: 1rem;
+    color: #E4572E;
+    padding-left: .6rem;
+}
 
 @keyframes slideDown {
     from {
@@ -117,7 +145,10 @@ body{
     font-size: 1.23rem;
     color: #ffffff;
     text-decoration: none;
-    transition: all 1.2s ease;  
+    transition: all .75s ease;  
+
+    border-top: 0.15rem solid transparent;
+    border-bottom: 0.15rem solid transparent;
     
 }
 
@@ -171,7 +202,7 @@ body{
   }
 
   .listaProductos {
-    width: 22.8rem;
+    width: 22.9rem;
     color: #f0f0f0;
     align-items: left;
     justify-content: center;
@@ -180,7 +211,7 @@ body{
     padding-left: 1.5rem;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(#497D56, #0b551eee);
+    background: linear-gradient(#497D56, #021b08ee);
     margin-top: .15rem;
     padding-top: 1rem;
     display: none;
@@ -231,6 +262,10 @@ body{
             background-color: #497D56;
             font-weight: 600;
             padding: 0;
+        }
+
+        .carritoTotalNav {
+            color: #30646B;
         }
     
         .navLinks li{

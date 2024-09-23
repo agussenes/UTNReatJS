@@ -345,7 +345,7 @@ footer .container .sec p {
 }
 
 .sci li a:hover {
-    color: #ffae00 ;
+    color: #E4572E ;
     background: #0a2516;
 }
 
@@ -376,7 +376,7 @@ footer .container .sec p {
 }
 
 .atajos li a:hover {
-    color: #3a08c5c0;
+    color: #88290c;
 }
 
 .atajos ul {
@@ -406,7 +406,7 @@ footer .container .sec p {
 }
 
 .info a:hover {
-    color: #3a08c5c0;
+    color: #88290c;
 }
 
 .copyrightsec {
@@ -487,20 +487,19 @@ footer .container .sec p {
 
 .containerFormulario {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     padding: 0.6rem;
     padding-top: 4.5rem;
     background-color: #F1D28F;
-    
 }
 
 .containerFormulario h2 {
     width: 100%;
-    border-bottom: 2px solid #13373b;
-    padding-bottom: 2rem;
-
+    border-radius: .5rem;
+    padding: 1.2rem 0;
+    align-items: center;
     background-color: #FDE4AF;
-
     text-align: center;
 }
 
@@ -572,27 +571,28 @@ footer .container .sec p {
 #productosAgregados {
     display: block;
     background-color: #30646B;
-    border-radius: 15px;
-    width: 25%;
+    border-radius: .5rem;
+    width: 33%;
     height: auto;
     padding: 2rem;
     list-style: none;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 1.5rem;
 }
 
 #productosAgregados li {
-    margin: 10px;
+    margin: .8rem;
     color: #ffffff;
     font-weight: 600;
-    padding: 20px;
+    padding: 1.2rem;
     border: 1px solid #ffffff;
-    border-radius: 15px;
+    border-radius: .5rem;
     box-shadow: 4px 4px 9px #040e09a8;
 }
 
 #productosAgregados img {
-    border-radius: 15px;
+    border-radius: .5rem;
     width: 100%;
     height: auto;
 
